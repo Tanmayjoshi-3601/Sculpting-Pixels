@@ -25,7 +25,10 @@ const Header = () => {
             transition={{ duration: 0.5 }}
           >
             <i className="ri-brush-4-line text-primary text-2xl"></i>
-            <h1 className="text-xl font-display font-bold">AI Artistry Unveiled</h1>
+            <div>
+              <h1 className="text-xl font-display font-bold">AI Artistry Unveiled</h1>
+              <p className="text-xs text-[#DB4D2E] font-medium mt-0.5">by Tanmay Joshi</p>
+            </div>
           </motion.div>
           
           <motion.nav 
