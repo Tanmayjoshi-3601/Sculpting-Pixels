@@ -16,28 +16,28 @@ const Examples = () => {
   
   const [currentIteration, setCurrentIteration] = useState<number>(1);
   const [showComparison, setShowComparison] = useState<boolean>(false);
-  
+
   const iterations: IterationData[] = [
     {
       prompt: "Rann Utsav festival, white desert landscape, tents, daytime.",
       analysis: "As expected, a fairly generic scene. The AI provides a basic representation of a desert with some tents, but it lacks the specific cultural elements that make Rann Utsav unique. The colors are muted, the tents are generic, and there is no indication of Gujarati cultural elements.",
-      imageUrl: "https://images.unsplash.com/photo-1496080174650-637e3f22fa03?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-      imageAlt: "Initial AI generation of Rann Utsav with basic tents in a desert",
+      imageUrl: "/images/rann_utsav_iteration1.png",
+      imageAlt: "Initial AI generation of Rann Utsav with basic tents in a white desert",
       imageCaption: "Initial AI generation based on basic prompt"
     },
     {
       prompt: "Vibrant <span class=\"highlight\">Rann Utsav festival in Kutch, Gujarat</span>, white desert landscape, <span class=\"highlight\">colorful traditional Gujarati bhungas</span> and <span class=\"highlight\">decorated circular tents</span>, <span class=\"highlight\">golden sunset</span> light.",
-      analysis: "Much better! We see the colorful Kutchi tents and bhungas (traditional round houses) with their distinctive decorative elements. The golden sunset creates a warm atmosphere, and the AI has captured some of the vibrancy of the festival. However, it still lacks some specific cultural details and activities that would make it truly authentic.",
-      imageUrl: "https://images.unsplash.com/photo-1529516548873-9ce57c8f155e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-      imageAlt: "Improved AI generation showing colorful tents at Rann Utsav during sunset",
-      imageCaption: "Improved generation with specified cultural elements"
+      analysis: "Much better! We see the colorful Kutchi tents and bhungas (traditional round houses) with their distinctive decorative elements. The addition of camels with traditional decorations adds cultural authenticity. However, it still lacks some specific cultural details and activities that would make it truly authentic.",
+      imageUrl: "/images/rann_utsav_iteration2.png",
+      imageAlt: "Improved AI generation showing colorful tents at Rann Utsav with decorated camels",
+      imageCaption: "Improved generation with specified cultural elements and decorated camels"
     },
     {
       prompt: "Vibrant Rann Utsav festival in Kutch, Gujarat, <span class=\"highlight\">vast white salt desert of Rann of Kutch</span>, colorful traditional Gujarati bhungas and decorated circular tents, golden sunset light, <span class=\"highlight\">local artisans displaying mirror-work embroidery and bandhani textiles</span>, <span class=\"highlight\">camel silhouettes</span>, <span class=\"highlight\">folk dancers in traditional Gujarati attire with ghagra choli</span>, <span class=\"highlight\">photorealistic, detailed</span>.",
-      analysis: "Perfect! The image now contains all the essential elements that make Rann Utsav culturally authentic. We can see the distinctive white salt desert, traditional Gujarati bhungas with mirror work decorations, folk dancers in traditional attire, artisans displaying their crafts, and even camel silhouettes against the sunset. The photorealistic quality brings the scene to life with rich details.",
-      imageUrl: "https://pixabay.com/get/g439e8cc5f3256fed4da986c5a85fea1e4730d035c526deae328d973651ae8b7b7a4cc763017925fbef105ba2f99ac2a540f18bab5065b0fc6f00176804b3bf3e_1280.jpg",
-      imageAlt: "Final detailed AI generation showing authentic Rann Utsav with folk dancers, artisans, and traditional elements",
-      imageCaption: "Final detailed generation with complete cultural context"
+      analysis: "Perfect! The image now contains all the essential elements that make Rann Utsav culturally authentic. We can see the distinctive white salt desert at sunset, traditional Gujarati tents with glowing lights, folk dancers in traditional attire, and cultural activities happening. The golden sunset creates a magical atmosphere and the photorealistic quality brings the scene to life with rich details.",
+      imageUrl: "/images/rann_utsav_iteration3.png",
+      imageAlt: "Final detailed AI generation showing authentic Rann Utsav at sunset with folk dancers, decorated tents, and cultural elements",
+      imageCaption: "Final detailed generation with complete cultural context at sunset"
     }
   ];
   
