@@ -52,26 +52,26 @@ const Hero = () => {
             {/* A vibrant collage of AI-generated Gujarati cultural imagery */}
             <div className="grid grid-cols-2 gap-4">
               <motion.img 
-                src="https://pixabay.com/get/g106f7e248e499e81d17052d26a316478fd50bc61346093af45cd5206e70df860a40700b7366f7609bba513b1d5831e35854d9b5c32d39982905cd8c2d6eebf88_1280.jpg" 
-                alt="Colorful Gujarati textile pattern" 
+                src="/images/rann_utsav_iteration1.png" 
+                alt="Rann Utsav festival with colorful tents in white desert" 
                 className="rounded-lg shadow-lg transform -rotate-3 hover:rotate-0 transition-all duration-300"
                 whileHover={{ scale: 1.05, rotate: 0 }}
               />
               <motion.img 
-                src="https://pixabay.com/get/g106f7e248e499e81d17052d26a316478fd50bc61346093af45cd5206e70df860a40700b7366f7609bba513b1d5831e35854d9b5c32d39982905cd8c2d6eebf88_1280.jpg" 
-                alt="Traditional Gujarati architecture" 
+                src="/images/rann_utsav_iteration2.png" 
+                alt="Rann Utsav with decorated camels and traditional tents" 
                 className="rounded-lg shadow-lg transform rotate-3 hover:rotate-0 transition-all duration-300"
                 whileHover={{ scale: 1.05, rotate: 0 }}
               />
               <motion.img 
-                src="https://pixabay.com/get/g106f7e248e499e81d17052d26a316478fd50bc61346093af45cd5206e70df860a40700b7366f7609bba513b1d5831e35854d9b5c32d39982905cd8c2d6eebf88_1280.jpg" 
-                alt="White desert of Rann of Kutch" 
+                src="https://images.unsplash.com/photo-1603228254119-e6a4d095dc59?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                alt="Navratri Garba dancers in traditional attire" 
                 className="rounded-lg shadow-lg transform rotate-2 hover:rotate-0 transition-all duration-300"
                 whileHover={{ scale: 1.05, rotate: 0 }}
               />
               <motion.img 
-                src="https://pixabay.com/get/g106f7e248e499e81d17052d26a316478fd50bc61346093af45cd5206e70df860a40700b7366f7609bba513b1d5831e35854d9b5c32d39982905cd8c2d6eebf88_1280.jpg" 
-                alt="Colorful Gujarati folk dancers" 
+                src="/images/rann_utsav_iteration3.png" 
+                alt="Rann Utsav sunset celebration with folk dancers and cultural activities" 
                 className="rounded-lg shadow-lg transform -rotate-2 hover:rotate-0 transition-all duration-300"
                 whileHover={{ scale: 1.05, rotate: 0 }}
               />
