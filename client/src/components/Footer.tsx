@@ -77,8 +77,11 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/20 pt-8 text-center">
-          <p className="text-white/60 text-sm">
+          <p className="text-white/60 text-sm mb-2">
             © {currentYear} AI Artistry Unveiled. All images are for educational purposes only.
+          </p>
+          <p className="text-white/80 text-sm font-medium">
+            Created by Tanmay Joshi
           </p>
         </div>
       </div>
