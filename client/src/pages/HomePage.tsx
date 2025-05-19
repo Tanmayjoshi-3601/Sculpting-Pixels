@@ -7,6 +7,7 @@ import Examples from "@/components/Examples";
 import Quiz from "@/components/Quiz";
 import Challenge from "@/components/Challenge";
 import Resources from "@/components/Resources";
+import AiApiInfo from "@/components/AiApiInfo";
 import Footer from "@/components/Footer";
 
 // Add custom CSS for the tutorial site

@@ -168,13 +168,13 @@ const Technique = () => {
                   transition={{ duration: 0.2 }}
                 >
                   <div className="flex items-center justify-between mb-2">
-                    <span className="font-medium text-sm text-accent">Enhanced Prompt</span>
+                    <span className="font-medium text-sm text-primary">Enhanced Prompt</span>
                     <span className="text-xs bg-secondary/20 text-secondary px-2 py-1 rounded-full">Iteration 2</span>
                   </div>
                   <p className="text-sm text-neutral-dark bg-white p-3 rounded border border-gray-200">
                     "Vibrant <span className="highlight">Rann Utsav festival in Kutch, Gujarat</span>, white desert landscape, <span className="highlight">colorful traditional Gujarati bhungas</span> and <span className="highlight">decorated circular tents</span>, <span className="highlight">golden sunset</span> light."
                   </p>
-                  <div className="flex items-center mt-3 text-xs text-accent">
+                  <div className="flex items-center mt-3 text-xs text-primary">
                     <i className="ri-check-line mr-1"></i>
                     <span>Added geographical context, specific architectural elements, and lighting</span>
                   </div>

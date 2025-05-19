@@ -532,7 +532,7 @@ const Examples = () => {
             {/* Comparison Toggle */}
             <div className="mt-10 text-center">
               <motion.button 
-                className="inline-flex items-center px-5 py-2.5 bg-secondary text-white rounded-lg font-medium hover:bg-secondary/90 transition-colors"
+                className="inline-flex items-center px-5 py-2.5 bg-[#1D7874] text-white rounded-lg font-medium hover:bg-[#13534F] transition-colors shadow-md"
                 onClick={() => setShowComparison(!showComparison)}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -627,7 +627,7 @@ const Examples = () => {
         
         {/* Creative Challenge Teaser */}
         <motion.div 
-          className="bg-secondary/5 rounded-xl p-6 md:p-10 custom-shadow text-center"
+          className="bg-[#1D7874]/5 rounded-xl p-6 md:p-10 custom-shadow text-center"
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
           variants={containerVariants}
@@ -647,7 +647,7 @@ const Examples = () => {
           </motion.p>
           <motion.a 
             href="#challenge"
-            className="inline-flex items-center px-6 py-3 bg-secondary text-white rounded-md font-medium hover:bg-secondary/90 transition-colors shadow-md"
+            className="inline-flex items-center px-6 py-3 bg-[#1D7874] text-white rounded-md font-medium hover:bg-[#13534F] transition-colors shadow-md"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             variants={itemVariants}
