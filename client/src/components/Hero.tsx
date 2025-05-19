@@ -49,17 +49,17 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            {/* A vibrant collage of AI-generated Gujarati cultural imagery */}
+            {/* A vibrant collage of Gujarati cultural imagery */}
             <div className="grid grid-cols-2 gap-4">
               <motion.img 
-                src="/images/rann_utsav_iteration1.png" 
-                alt="Rann Utsav festival with colorful tents in white desert" 
+                src="https://images.unsplash.com/photo-1599030740023-883efd7ccb51?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                alt="Traditional Gujarati embroidery textile pattern" 
                 className="rounded-lg shadow-lg transform -rotate-3 hover:rotate-0 transition-all duration-300"
                 whileHover={{ scale: 1.05, rotate: 0 }}
               />
               <motion.img 
-                src="/images/rann_utsav_iteration2.png" 
-                alt="Rann Utsav with decorated camels and traditional tents" 
+                src="https://images.unsplash.com/photo-1624286256376-e9b012a0975e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                alt="Colorful traditional Gujarati building architecture" 
                 className="rounded-lg shadow-lg transform rotate-3 hover:rotate-0 transition-all duration-300"
                 whileHover={{ scale: 1.05, rotate: 0 }}
               />
@@ -70,8 +70,8 @@ const Hero = () => {
                 whileHover={{ scale: 1.05, rotate: 0 }}
               />
               <motion.img 
-                src="/images/rann_utsav_iteration3.png" 
-                alt="Rann Utsav sunset celebration with folk dancers and cultural activities" 
+                src="https://images.unsplash.com/photo-1580756321097-95a3740fa6de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                alt="Traditional Gujarati clay pottery with intricate patterns" 
                 className="rounded-lg shadow-lg transform -rotate-2 hover:rotate-0 transition-all duration-300"
                 whileHover={{ scale: 1.05, rotate: 0 }}
               />
