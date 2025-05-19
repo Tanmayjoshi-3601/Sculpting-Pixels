@@ -8,6 +8,7 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+          {/* Left Content */}
           <motion.div 
             className="md:w-1/2"
             initial={{ opacity: 0, x: -50 }}
@@ -43,39 +44,39 @@ const Hero = () => {
             </div>
           </motion.div>
           
+          {/* Right Content - Cultural Icons */}
           <motion.div 
             className="md:w-1/2 relative"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            {/* A vibrant collage of Gujarati cultural imagery */}
             <div className="grid grid-cols-2 gap-4">
-              <motion.img 
-                src="https://images.unsplash.com/photo-1599030740023-883efd7ccb51?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
-                alt="Traditional Gujarati embroidery textile pattern" 
-                className="rounded-lg shadow-lg transform -rotate-3 hover:rotate-0 transition-all duration-300"
-                whileHover={{ scale: 1.05, rotate: 0 }}
-              />
-              <motion.img 
-                src="https://images.unsplash.com/photo-1624286256376-e9b012a0975e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
-                alt="Colorful traditional Gujarati building architecture" 
-                className="rounded-lg shadow-lg transform rotate-3 hover:rotate-0 transition-all duration-300"
-                whileHover={{ scale: 1.05, rotate: 0 }}
-              />
-              <motion.img 
-                src="https://images.unsplash.com/photo-1603228254119-e6a4d095dc59?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
-                alt="Navratri Garba dancers in traditional attire" 
-                className="rounded-lg shadow-lg transform rotate-2 hover:rotate-0 transition-all duration-300"
-                whileHover={{ scale: 1.05, rotate: 0 }}
-              />
-              <motion.img 
-                src="https://images.unsplash.com/photo-1580756321097-95a3740fa6de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
-                alt="Traditional Gujarati clay pottery with intricate patterns" 
-                className="rounded-lg shadow-lg transform -rotate-2 hover:rotate-0 transition-all duration-300"
-                whileHover={{ scale: 1.05, rotate: 0 }}
-              />
+              <div className="rounded-lg shadow-lg transform -rotate-3 hover:rotate-0 transition-all duration-300 aspect-square bg-gradient-to-br from-orange-100 to-red-200 p-4 flex items-center justify-center">
+                <div className="w-full h-full border-4 border-orange-500 rounded-md p-3 bg-white bg-opacity-70 flex items-center justify-center">
+                  <h3 className="text-lg font-bold text-orange-700">Gujarati Textiles</h3>
+                </div>
+              </div>
+              
+              <div className="rounded-lg shadow-lg transform rotate-3 hover:rotate-0 transition-all duration-300 aspect-square bg-gradient-to-br from-amber-100 to-yellow-200 p-4 flex items-center justify-center">
+                <div className="w-full h-full border-4 border-amber-500 rounded-md p-3 bg-white bg-opacity-70 flex items-center justify-center">
+                  <h3 className="text-lg font-bold text-amber-700">Traditional Architecture</h3>
+                </div>
+              </div>
+              
+              <div className="rounded-lg shadow-lg transform rotate-2 hover:rotate-0 transition-all duration-300 aspect-square bg-gradient-to-br from-green-100 to-teal-200 p-4 flex items-center justify-center">
+                <div className="w-full h-full border-4 border-teal-500 rounded-md p-3 bg-white bg-opacity-70 flex items-center justify-center">
+                  <h3 className="text-lg font-bold text-teal-700">Garba Dancers</h3>
+                </div>
+              </div>
+              
+              <div className="rounded-lg shadow-lg transform -rotate-2 hover:rotate-0 transition-all duration-300 aspect-square bg-gradient-to-br from-red-100 to-rose-200 p-4 flex items-center justify-center">
+                <div className="w-full h-full border-4 border-rose-500 rounded-md p-3 bg-white bg-opacity-70 flex items-center justify-center">
+                  <h3 className="text-lg font-bold text-rose-700">Cultural Pottery</h3>
+                </div>
+              </div>
             </div>
+            
             <div className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-lg z-10">
               <span className="text-xs font-medium text-neutral-dark block">Created with</span>
               <span className="font-medium text-primary">AI Prompting</span>
