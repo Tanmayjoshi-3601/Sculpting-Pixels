@@ -194,28 +194,28 @@ const Examples = () => {
     }
   ];
   
-  // Sidi Saiyyed Mosque Jali example (placeholder for now)
+  // Sidi Saiyyed Mosque Jali example with actual images
   const sidiSaiyyedIterations: IterationData[] = [
     {
       prompt: "Sidi Saiyyed Mosque jali window pattern, stone carving.",
-      analysis: "The basic prompt produces a reasonable depiction of a jali window, but lacks the specific cultural and historical details of the famous Sidi Saiyyed Mosque in Ahmedabad. The intricate tree-of-life pattern that makes this jali world-famous is only vaguely represented.",
-      imageUrl: "https://images.unsplash.com/photo-1580202313707-46a966af2f56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      imageAlt: "Initial AI generation of a generic jali window pattern",
-      imageCaption: "Initial generation showing a basic jali pattern"
+      analysis: "The basic prompt produces a depiction of a jali window, but lacks the specific cultural and historical details of the famous Sidi Saiyyed Mosque in Ahmedabad. The geometric honeycomb pattern shown here is different from the iconic tree-of-life pattern that makes this jali world-famous.",
+      imageUrl: "/images/sidi_saiyyed_iteration1.png",
+      imageAlt: "Initial AI generation of a geometric jali window pattern",
+      imageCaption: "Initial generation showing a basic geometric jali pattern"
     },
     {
-      prompt: "Famous <span class=\"highlight\">Sidi Saiyyed Mosque jali in Ahmedabad, Gujarat</span>, intricate <span class=\"highlight\">tree of life pattern</span>, <span class=\"highlight\">16th century Islamic architecture</span>, <span class=\"highlight\">detailed stone latticework</span>, <span class=\"highlight\">soft light filtering through</span>.",
-      analysis: "This iteration shows significant improvement with the addition of specific details about the location, the iconic tree of life pattern, and historical context. The latticework is more intricate and the lighting effect creates the atmospheric quality these jalis are known for.",
-      imageUrl: "https://images.unsplash.com/photo-1585136552737-a856e3d79506?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      imageAlt: "Improved AI generation showing the distinctive tree of life pattern",
-      imageCaption: "Enhanced generation with specific architectural details"
+      prompt: "Famous <span class=\"highlight\">Sidi Saiyyed Mosque jali in Ahmedabad, Gujarat</span>, intricate <span class=\"highlight\">tree of life pattern</span>, <span class=\"highlight\">16th century Islamic architecture</span>, <span class=\"highlight\">detailed stone latticework</span>, <span class=\"highlight\">golden sunlight filtering through</span>.",
+      analysis: "This iteration shows significant improvement with the tree of life pattern clearly visible in the jali. The sunlight shining through creates a magical effect, highlighting the beautiful craftsmanship. The addition of specific details about location and historical context has helped generate a more authentic representation.",
+      imageUrl: "/images/sidi_saiyyed_iteration2.png",
+      imageAlt: "Improved AI generation showing the distinctive tree of life pattern with sunlight filtering through",
+      imageCaption: "Enhanced generation with the iconic tree of life pattern and beautiful lighting"
     },
     {
-      prompt: "Famous Sidi Saiyyed Mosque jali in Ahmedabad, Gujarat, intricate tree of life pattern, 16th century Islamic architecture, detailed stone latticework, soft light filtering through, <span class=\"highlight\">intertwining branches and delicate leaves</span>, <span class=\"highlight\">symbol of Indo-Islamic art</span>, <span class=\"highlight\">historically accurate architectural details</span>, <span class=\"highlight\">amber evening light casting shadows</span>, <span class=\"highlight\">photorealistic, high detail</span>.",
-      analysis: "The final iteration captures the full essence of this architectural masterpiece. The intertwining branches of the tree of life pattern are rendered with historical accuracy, and the cultural significance as a symbol of Indo-Islamic art fusion is evident. The evening light creates the perfect ambiance, highlighting the three-dimensional quality of this remarkable piece of Gujarati heritage.",
-      imageUrl: "https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      imageAlt: "Final detailed AI generation showing the iconic Sidi Saiyyed jali with accurate historical details",
-      imageCaption: "Final detailed generation with historical accuracy and cultural context"
+      prompt: "Famous Sidi Saiyyed Mosque jali in Ahmedabad, Gujarat, intricate tree of life pattern, 16th century Islamic architecture, detailed stone latticework, golden light filtering through, <span class=\"highlight\">intertwining branches and delicate leaves</span>, <span class=\"highlight\">symbol of Indo-Islamic art</span>, <span class=\"highlight\">historically accurate architectural details</span>, <span class=\"highlight\">ornate stone frame</span>, <span class=\"highlight\">photorealistic, high detail</span>.",
+      analysis: "The final iteration captures the full essence of this architectural masterpiece. The intertwining branches of the tree of life pattern are rendered with historical accuracy, and the cultural significance as a symbol of Indo-Islamic art fusion is evident. The detailed stone frame around the jali is now accurately represented, and the lighting highlights the three-dimensional quality of this remarkable piece of Gujarati heritage.",
+      imageUrl: "/images/sidi_saiyyed_iteration3.png",
+      imageAlt: "Final detailed AI generation showing the iconic Sidi Saiyyed jali with accurate historical details and ornate frame",
+      imageCaption: "Final detailed generation with historical accuracy and proper architectural context"
     }
   ];
   
