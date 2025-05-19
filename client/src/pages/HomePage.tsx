@@ -4,6 +4,8 @@ import Hero from "@/components/Hero";
 import Introduction from "@/components/Introduction";
 import Technique from "@/components/Technique";
 import Examples from "@/components/Examples";
+import Quiz from "@/components/Quiz";
+import Challenge from "@/components/Challenge";
 import Resources from "@/components/Resources";
 import Footer from "@/components/Footer";
 
@@ -16,6 +18,16 @@ const customStyles = `
     background-color: rgba(255, 179, 71, 0.3);
     padding: 0 3px;
     border-radius: 2px;
+  }
+  .highlight-new {
+    background-color: rgba(251, 146, 60, 0.4);
+    padding: 0 3px;
+    border-radius: 2px;
+    animation: pulse 2s ease-in-out 1;
+  }
+  @keyframes pulse {
+    0%, 100% { background-color: rgba(251, 146, 60, 0.2); }
+    50% { background-color: rgba(251, 146, 60, 0.6); }
   }
   .custom-shadow {
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
@@ -31,6 +43,12 @@ const customStyles = `
   }
   body {
     scroll-behavior: smooth;
+  }
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 `;
 
@@ -74,6 +92,8 @@ const HomePage = () => {
       <Introduction />
       <Technique />
       <Examples />
+      <Quiz />
+      <Challenge />
       <Resources />
       <Footer />
     </div>
