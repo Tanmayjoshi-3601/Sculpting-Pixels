@@ -2,12 +2,14 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Introduction from "@/components/Introduction";
+import UnderstandingPattern from "@/components/UnderstandingPattern";
+import RealWorldImpact from "@/components/RealWorldImpact";
 import Technique from "@/components/Technique";
 import Examples from "@/components/Examples";
 import Quiz from "@/components/Quiz";
 import Challenge from "@/components/Challenge";
-import Resources from "@/components/Resources";
 import AiApiInfo from "@/components/AiApiInfo";
+import Resources from "@/components/Resources";
 import Footer from "@/components/Footer";
 
 // Add custom CSS for the tutorial site
@@ -91,10 +93,13 @@ const HomePage = () => {
       <Header />
       <Hero />
       <Introduction />
+      <UnderstandingPattern />
+      <RealWorldImpact />
       <Technique />
       <Examples />
       <Quiz />
       <Challenge />
+      <AiApiInfo />
       <Resources />
       <Footer />
     </div>
